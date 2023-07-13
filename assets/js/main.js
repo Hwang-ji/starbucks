@@ -46,7 +46,7 @@ window.addEventListener("scroll", scrollUp);
 const sections = document.querySelectorAll("section[id]");
 // console.log(sections);
 const scrollActive = () => {
-  const scrollY = window.pageYOffset;
+  const scrollY = window.scrollY;
 
   sections.forEach(current => {
     const sectionHeight = current.offsetHeight,
